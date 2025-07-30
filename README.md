@@ -27,7 +27,7 @@ A donation platform based on Zama FHEVM, using Fully Homomorphic Encryption (FHE
 ```bash
 # Clone the project
 git clone <your-repo>
-cd phe-climate-protection
+cd phe-crypto-green
 
 # Install dependencies
 npm install
