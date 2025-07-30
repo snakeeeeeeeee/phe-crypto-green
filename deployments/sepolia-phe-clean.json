@@ -1,0 +1,28 @@
+{
+  "network": "sepolia",
+  "chainId": 11155111,
+  "contracts": {
+    "climateProtectionPHE": "0x2EC07691e8593AE98dB231e37447121e23127e7C"
+  },
+  "deployer": "0x27815E616965644F58b628954416215559FaC801",
+  "timestamp": "2025-07-30T15:34:50.330Z",
+  "blockNumber": 8876179,
+  "verification": {
+    "climateProtectionPHE": {
+      "contractName": "ClimateProtectionPHE",
+      "sourceName": "contracts/ClimateProtectionPHE.sol",
+      "constructorArgs": []
+    }
+  },
+  "deploymentStats": {
+    "sampleProjectsCreated": 1,
+    "contractsDeployed": 1,
+    "gasUsed": "Optimized for PHE operations",
+    "features": [
+      "FHE encrypted donations",
+      "ETH-only payments",
+      "Oracle decryption",
+      "Privacy-preserving comparisons"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "network": "sepolia",
+  "chainId": 11155111,
+  "contracts": {
+    "climateProtectionPHE": "0x875881af2fA891E3FAFac637b7f3C77Ab3d63Fff",
+    "confidentialERC20": "0x085eF7b12ecf79f0B637e2C83622Bc4495d1F3e2"
+  },
+  "deployer": "0x27815E616965644F58b628954416215559FaC801",
+  "timestamp": "2025-07-28T13:44:50.227Z",
+  "blockNumber": 8861257,
+  "verification": {
+    "climateProtectionPHE": {
+      "contractName": "ClimateProtectionPHE",
+      "sourceName": "contracts/ClimateProtectionPHE.sol",
+      "constructorArgs": []
+    },
+    "confidentialERC20": {
+      "contractName": "ConfidentialERC20",
+      "sourceName": "contracts/ConfidentialERC20.sol",
+      "constructorArgs": [
+        "Climate USDC",
+        "cUSDC",
+        "0x27815E616965644F58b628954416215559FaC801"
+      ]
+    }
+  },
+  "testInfo": {
+    "sampleProjectsCreated": 3,
+    "testTokensMinted": 1000000,
+    "testAccounts": 1
+  }
+}
