@@ -66,27 +66,11 @@ npm run dev
 Update `.env` file with your configuration:
 
 ```env
-# Private key for deployment (keep secure)
+# Private key for deployment
 PRIVATE_KEY=0x...
 
-# Contract address (automatically generated after deployment)
+# Contract address
 NEXT_PUBLIC_CONTRACT_ADDRESS=0x...
-
-# Network configuration
-NEXT_PUBLIC_CHAIN_ID=11155111
-NEXT_PUBLIC_NETWORK_NAME=sepolia
-NEXT_PUBLIC_NETWORK_URL=https://eth-sepolia.api.onfinality.io/public
-
-# FHE configuration
-NEXT_PUBLIC_USE_FHE=true
-NEXT_PUBLIC_FHE_RELAYER_URL=https://relayer.testnet.zama.cloud
-
-# Blockchain explorer
-NEXT_PUBLIC_EXPLORER_URL=https://sepolia.etherscan.io
-
-# App configuration
-NEXT_PUBLIC_APP_MODE=PHE_ETH_ONLY
-NEXT_PUBLIC_DONATION_TOKEN=ETH
 ```
 
 ## 🎮 Usage Flow
