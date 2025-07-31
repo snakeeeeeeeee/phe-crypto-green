@@ -2,11 +2,11 @@
   "network": "sepolia",
   "chainId": 11155111,
   "contracts": {
-    "climateProtectionPHE": "0x2EC07691e8593AE98dB231e37447121e23127e7C"
+    "climateProtectionPHE": "0xd00D5c05072D0E8F68b1239bEeB3430e3D376c2a"
   },
   "deployer": "0x27815E616965644F58b628954416215559FaC801",
-  "timestamp": "2025-07-30T15:34:50.330Z",
-  "blockNumber": 8876179,
+  "timestamp": "2025-07-31T20:44:25.518Z",
+  "blockNumber": 8884818,
   "verification": {
     "climateProtectionPHE": {
       "contractName": "ClimateProtectionPHE",
